@@ -24,21 +24,65 @@ This project is a basic AI-powered chatbot built using the Google Gemini API. Th
 ## 📂 Project Structure
 
 ```text
-project/
+AI-INTEGRATION/
 │
-├── app.py / server.js
-├── chatbot/
-│   ├── gemini_integration.py
-│   ├── chat_history.py
-│   └── response_generator.py
+├── backend/
+│   ├── node_modules/
+│   ├── .env
+│   ├── main.js
+│   ├── package.json
+│   └── package-lock.json
 │
-├── database/
-│   └── chat_history.db
+├── frontend/
+│   └── my-react-app/
+│       ├── node_modules/
+│       ├── public/
+│       │
+│       ├── src/
+│       │   ├── assets/
+│       │   ├── components/
+│       │   ├── App.jsx
+│       │   ├── App.css
+│       │   ├── main.jsx
+│       │   └── index.css
+│       │
+│       ├── .gitignore
+│       ├── eslint.config.js
+│       ├── index.html
+│       ├── package.json
+│       ├── package-lock.json
+│       ├── vite.config.js
+│       └── README.md
 │
-├── static/
-├── templates/
-├── requirements.txt
+├── .gitignore
 └── README.md
+```
+
+### 📁 Directory Description
+
+#### Backend
+
+* `main.js` – Main server file handling Gemini API integration and chat processing.
+* `.env` – Stores sensitive environment variables such as the Gemini API key.
+* `package.json` – Backend dependencies and scripts.
+
+#### Frontend (React + Vite)
+
+* `src/components/` – Reusable React components.
+* `src/assets/` – Static assets such as images and icons.
+* `App.jsx` – Main application component.
+* `main.jsx` – React application entry point.
+* `App.css` & `index.css` – Styling files.
+* `vite.config.js` – Vite configuration.
+
+#### Root Files
+
+* `.gitignore` – Prevents sensitive and unnecessary files from being committed.
+* `README.md` – Project documentation.
+
+```
+```
+
 ```
 
 ## 🚀 Getting Started
