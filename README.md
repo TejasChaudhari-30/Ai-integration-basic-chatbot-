@@ -45,7 +45,7 @@ project/
 
 ### Prerequisites
 
-* Python 3.9+ (or Node.js if using JavaScript)
+*  Node.js  
 * Google Gemini API Key
 
 ### Installation
@@ -53,19 +53,30 @@ project/
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+git clone https://github.com/TejasChaudhari-30/Ai-integration-basic-chatbot-/tree/main
 ```
 
 2. Navigate to the project directory:
-
+for starting backend server
 ```bash
-cd your-repository-name
-```
+cd /backend
 
 3. Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+npm install
+```
+then for runing server run 
+node main.js
+on bash
+
+```
+
+
+3. Install dependencies:
+
+```bash
+npm install
 ```
 
 4. Configure your Gemini API key:
@@ -73,13 +84,19 @@ pip install -r requirements.txt
 Create a `.env` file and add:
 
 ```env
-GEMINI_API_KEY=your_api_key_here
+create your owngemini api to use locally  
+api_key=your_created gemini_api_key_here
 ```
 
 5. Start the application:
 
-```bash
-python app.py
+6. start frontend
+7. cd ~yourdirectory/frontend/my-react-app
+8. run : npm i
+9. then
+10. npm run dev // for starting front end react app
+11. 
+
 ```
 
 ## 💬 How It Works
